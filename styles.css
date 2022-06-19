@@ -1,0 +1,400 @@
+@media screen and (min-width: 850px) {
+
+body {
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    margin: 15px 55% 0 3%;
+}
+
+.top-button {
+    background-color: white;
+    color: black;
+    width: 20%;
+    height: 40px;
+    padding: 1px 15px;
+    margin: 15px 0;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.jumbotron {
+    background-image: url(../images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    height: 800px;
+}
+
+.logo-section {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    
+}
+
+h3 {
+    font-size: 40px;
+    font-family: poppins;
+}
+
+h4 {
+    font-size: 25px;
+    font-family: poppins;
+    margin: 10% 0 1%;
+}
+
+p {
+    font-family: open sans;
+    font-size: 18px;
+}
+
+.hero {
+    
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-text {
+    margin: 8% 3%;
+    width: 50%;
+}
+
+.hero-text h3 {
+    font-size: 40px;
+    font-family: poppins;
+    margin-top: 15%;
+}
+
+.hero-text p {
+    font-family: open sans;
+    font-size: 18px;
+}
+
+.hero-text button {
+    background-color: hsl(322, 100%, 66%);
+    color: hsl(193, 100%, 96%);
+    width: 35%;
+    padding: 15px 15px;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.hero-image {
+    width: 50%;
+    margin: 10% 3% 0;
+
+}
+
+
+.card-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10% 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    width: 80%;    
+    box-shadow: 2px 2px 14px grey;
+    margin: 2% 10%;
+}
+
+.card-text {
+    width: 50%;
+    margin: 5%;
+
+}
+
+.card-image {
+    width: 50%;
+    margin: 2% 5% 0;
+}
+
+.overlay {
+    width: 50%;
+    height: 250px;
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    opacity: 1;
+    background: white;
+    box-shadow: 2px 2px 14px grey;
+    z-index: 9;
+    margin: 30px;
+    text-align: center;
+    font-family: open sans;
+}
+
+.overlay button {
+    background-color: hsl(322, 100%, 66%);
+    padding: 20px;
+    border: none;
+    border-radius: 26px;
+    width: 300px;
+}
+
+.footer-layout {
+    background-color: hsl(192, 100%, 9%);
+    padding-top: 70px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 350px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    margin: 0 10%;
+}
+
+.con-1 {
+    width: 25%;
+    color: white;
+    margin-left: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+ion-icon {
+    color: white;
+    margin: 0.5rem;
+    font-size: 150%;
+}
+
+.footer-logo {
+    margin-left: 12%;
+}
+
+}
+
+@media screen and (max-width: 375px) {
+    
+body {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.logo {
+    width: 30%;
+    margin: 20px 20% 0 25px;
+    position: relative;
+    right: 1%;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: poppins;
+}
+
+p {
+    font-family: open sans;
+    font-size: 14px;
+    margin: 0 5%;
+}
+
+.jumbotron {
+    background-image: url(../images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    height: 600px;
+}
+
+.hero {
+    
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-section {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 100%;
+    
+}
+
+.hero-text h3 {
+    margin: 15% 5%;
+}
+
+.hero-text button {
+    background-color: hsl(322, 100%, 66%);
+    color: hsl(193, 100%, 96%);
+    width:50%;
+    padding: 5px 15px;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.top-button {
+    background-color: white;
+    color: black;
+    width: 30%;
+    height: 20px;
+    padding: 1px 15px;
+    margin: 15px 0;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.card-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;    
+    box-shadow: 2px 2px 14px grey;
+    margin: 5px;
+    
+}
+
+.card-1 {
+    flex-direction: column-reverse !important;
+}
+
+.card-text {
+    margin: 5px;
+}
+
+.overlay {
+    width: 70%;
+    height: 150px;
+    position: absolute;
+    top: 79%;
+    left: 15%;
+    opacity: 1;
+    background: white;
+    box-shadow: 2px 2px 14px grey;
+    z-index: 9;
+    margin: 10px;
+    text-align: center;
+    font-family: open sans
+}
+
+.overlay button {
+    background-color: hsl(322, 100%, 66%);
+    padding: 10px;
+    border: none;
+    border-radius: 26px;
+    width: 200px;
+    font-family: open sans;
+}
+
+.footer-layout {
+    background-color: hsl(192, 100%, 9%);
+    padding-top: 70px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10%;
+}
+
+.con-1 {
+    width: 100%;
+    color: white;
+    margin-left: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+ion-icon {
+    color: white;
+    margin: 0.5rem;
+    font-size: 150%;
+}
+
+.footer-logo {
+    margin-left: 12%;
+}
+
+}
+
+/* <!-- # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Pink: hsl(322, 100%, 66%)
+
+### Neutral
+
+- Very Pale Cyan: hsl(193, 100%, 96%)
+- Very Dark Cyan: hsl(192, 100%, 9%)
+- Grayish Blue: hsl(208, 11%, 55%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 18px
+
+### Headings
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 600
+
+### Body, Call-to-actions
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400, 700
+
+## Icons
+
+For the social icons, you can use a font icon library. Some suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com/)
+- [IcoMoon](https://icomoon.io/)
+- [Ionicons](https://ionicons.com/) --> */
