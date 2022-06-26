@@ -1,4 +1,4 @@
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 1000px) {
 
 body {
     margin: 0 auto;
@@ -7,6 +7,10 @@ body {
 
 .logo {
     margin: 15px 55% 0 3%;
+}
+
+.logo2 {
+    margin-top: 55px;
 }
 
 .top-button {
@@ -24,7 +28,7 @@ body {
 .jumbotron {
     background-image: url(../images/bg-hero-desktop.svg);
     background-color: hsl(193, 100%, 96%);
-    height: 800px;
+    height: 850px;
 }
 
 .logo-section {
@@ -123,7 +127,7 @@ p {
     width: 50%;
     height: 250px;
     position: absolute;
-    top: 80%;
+    top: 82%;
     left: 25%;
     opacity: 1;
     background: white;
@@ -155,7 +159,7 @@ p {
 .contact {
     display: flex;
     flex-direction: row;
-    margin: 0 10%;
+    margin: 0 5% 0 11%;
 }
 
 .con-1 {
@@ -184,8 +188,396 @@ ion-icon {
     margin-left: 12%;
 }
 
+span {
+    margin: 0 15px
 }
 
+}
+@media (min-width: 600px) and (max-width:1000px) {
+
+    body {
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    .logo {
+        margin: 15px 35% 0 3%;
+        width: 30%;
+    }
+    
+    .logo2 {
+        margin-top: 55px;
+        width: 20%;
+    }
+    
+    .top-button {
+        background-color: white;
+        color: black;
+        width: 150px;
+        height: 40px;
+        padding: 1px 10px;
+        margin: 15px 10px;
+        border-radius: 16px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .jumbotron {
+        background-image: url(../images/bg-hero-desktop.svg);
+        background-color: hsl(193, 100%, 96%);
+        height: 450px;
+    }
+    
+    .logo-section {
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        width: 100%;
+        
+    }
+    
+    h3 {
+        font-size: 18px;
+        font-family: poppins;
+        line-height: 1.2;
+    }
+    
+    h4 {
+        font-size: 15px;
+        font-family: poppins;
+        margin: 10% 0 1%;
+    }
+    
+    p {
+        font-family: open sans;
+        font-size: 12px;
+    }
+    
+    .hero {
+        
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .hero-text {
+        margin: 8% 3%;
+        width: 50%;
+    }
+    
+    .hero-text h3 {
+        font-size: 20px;
+        font-family: poppins;
+        margin-top: 15%;
+    }
+    
+    .hero-text p {
+        font-family: open sans;
+        font-size: 12px;
+    }
+    
+    .hero-text button {
+        background-color: hsl(322, 100%, 66%);
+        color: hsl(193, 100%, 96%);
+        width: 150px;
+        padding: 10px 10px;
+        border-radius: 16px;
+        border: none;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    
+    .hero-image {
+        width: 50%;
+        margin: 10% 3% 0;
+    
+    }
+    
+    
+    .card-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 10% 0;
+    }
+    
+    .card {
+        display: flex;
+        flex-direction: row;
+        width: 90%;    
+        box-shadow: 2px 2px 14px grey;
+        margin: 2% 5%;
+    }
+    
+    .card-text {
+        width: 50%;
+        margin: 5%;
+    
+    }
+    
+    .card-image {
+        width: 50%;
+        margin: 2% 5% 0;
+    }
+    
+    .overlay {
+        width: 50%;
+        height: 150px;
+        position: absolute;
+        top: 70%;
+        left: 25%;
+        opacity: 1;
+        background: white;
+        box-shadow: 2px 2px 14px grey;
+        z-index: 9;
+        margin: 30px;
+        text-align: center;
+        font-family: open sans;
+    }
+    
+    .overlay button {
+        background-color: hsl(322, 100%, 66%);
+        padding: 10px;
+        border: none;
+        border-radius: 26px;
+        width: 150px;
+        margin-top: 10px;
+    }
+    
+    .footer-layout {
+        background-color: hsl(192, 100%, 9%);
+        padding-top: 70px;
+        width: 100%;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 150px;
+    }
+    
+    .contact {
+        display: flex;
+        flex-direction: row;
+        margin: 0 5% 0 11%;
+    }
+    
+    .con-1 {
+        width: 25%;
+        color: white;
+        margin-left: 20px;
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    ion-icon {
+        color: white;
+        margin: 0.5rem;
+        font-size: 150%;
+    }
+    
+    .footer-logo {
+        margin-left: 14%;
+    }
+    
+    span {
+        margin: 0 15px
+    }
+    
+    }
+
+    @media (min-width: 376px) and (max-width: 599px) {
+    
+        body {
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+        }
+        
+        .logo {
+            width: 30%;
+            margin: 20px 30% 0 25px;
+            position: relative;
+            right: 1%;
+        }
+        
+        .logo2 {
+            width: 40%;
+            margin: 40px 20% 20px 25px;
+            position: relative;
+            right: 1%;
+        }
+        
+        h3 {
+            font-size: 20px;
+            font-family: poppins;
+        }
+        
+        p {
+            font-family: open sans;
+            font-size: 14px;
+            margin: 0 5%;
+        }
+        
+        .jumbotron {
+            background-image: url(../images/bg-hero-desktop.svg);
+            background-color: hsl(193, 100%, 96%);
+            height: 750px;
+        }
+        
+        .hero {
+            
+            width: 100%;
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .logo-section {
+            display: flex;
+            flex-direction: row;
+            height: 40px;
+            width: 100%;
+            
+        }
+        
+        .hero-text h3 {
+            margin: 15% 5%;
+        }
+        
+        .hero-text button {
+            background-color: hsl(322, 100%, 66%);
+            color: hsl(193, 100%, 96%);
+            width:150px;
+            padding: 5px 15px;
+            border-radius: 16px;
+            border: none;
+            cursor: pointer;
+            margin: 5px;
+        }
+        
+        .top-button {
+            background-color: white;
+            color: black;
+            width: 30%;
+            height: 20px;
+            padding: 1px 15px;
+            margin: 15px 0;
+            border-radius: 16px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .card-section {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin: 5%;
+            
+        }
+        
+        .card {
+            display: flex;
+            flex-direction: column;
+            width: 90%;    
+            box-shadow: 2px 2px 14px grey;
+            margin: 5px;
+            
+        }
+        
+        .card-1 {
+            flex-direction: column-reverse !important;
+        }
+        
+        .card-text {
+            margin: 5px;
+        }
+
+        .card-image {
+            width:70%;
+            height: 50%;
+            align-items: center;
+        }
+        
+        .overlay {
+            width: 70%;
+            height: 150px;
+            position: absolute;
+            top: 79%;
+            left: 15%;
+            opacity: 1;
+            background: white;
+            box-shadow: 2px 2px 14px grey;
+            z-index: 9;
+            margin: 10px;
+            text-align: center;
+            font-family: open sans
+        }
+        
+        .overlay button {
+            background-color: hsl(322, 100%, 66%);
+            padding: 10px;
+            border: none;
+            border-radius: 26px;
+            width: 200px;
+            font-family: open sans;
+        }
+        
+        .footer-layout {
+            background-color: hsl(192, 100%, 9%);
+            padding-top: 70px;
+            width: 100%;
+            height: 350px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 100px;
+        }
+        
+        .contact {
+            display: flex;
+            flex-direction: column;
+            margin: 0 10%;
+        }
+        
+        .con-1 {
+            width: 100%;
+            color: white;
+            margin-left: 20px;
+        }
+        
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        
+        ion-icon {
+            color: white;
+            margin: 0.5rem;
+            font-size: 150%;
+        }
+        
+        .footer-logo {
+            margin-left: 12%;
+        }
+        
+        span {
+            margin: 0 15px
+        }
+        
+        }
+        
 @media screen and (max-width: 375px) {
     
 body {
@@ -197,6 +589,13 @@ body {
 .logo {
     width: 30%;
     margin: 20px 20% 0 25px;
+    position: relative;
+    right: 1%;
+}
+
+.logo2 {
+    width: 40%;
+    margin: 40px 20% 20px 25px;
     position: relative;
     right: 1%;
 }
@@ -272,7 +671,7 @@ p {
 .card {
     display: flex;
     flex-direction: column;
-    width: 100%;    
+    width: 90%;    
     box-shadow: 2px 2px 14px grey;
     margin: 5px;
     
@@ -306,7 +705,7 @@ p {
     padding: 10px;
     border: none;
     border-radius: 26px;
-    width: 200px;
+    width: 150px;
     font-family: open sans;
 }
 
@@ -350,6 +749,10 @@ ion-icon {
 
 .footer-logo {
     margin-left: 12%;
+}
+
+span {
+    margin: 0 15px
 }
 
 }
